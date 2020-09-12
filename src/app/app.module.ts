@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StaticMapsComponent } from './static-maps/static-maps.component';
 import { NavigationMapsComponent } from './navigation-maps/navigation-maps.component';
+import { AuthorComponent } from './author/author.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StaticMapsComponent,
-    NavigationMapsComponent
+    NavigationMapsComponent,
+    AuthorComponent
   ],
   imports: [
     BrowserModule,
